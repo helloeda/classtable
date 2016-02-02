@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		641590A31C60423C00314DF5 /* LELoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 641590A21C60423C00314DF5 /* LELoginViewController.m */; };
+		641590AA1C6049A500314DF5 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 641590A61C6049A500314DF5 /* MBProgressHUD+MJ.m */; };
+		641590AB1C6049A500314DF5 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 641590A71C6049A500314DF5 /* MBProgressHUD.bundle */; };
+		641590AC1C6049A500314DF5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 641590A91C6049A500314DF5 /* MBProgressHUD.m */; };
+		641590AF1C6049B200314DF5 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 641590AE1C6049B200314DF5 /* NSArray+Log.m */; };
+		641590B21C6050C900314DF5 /* LECourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 641590B11C6050C900314DF5 /* LECourse.m */; };
+		646707121C5A55AD00D32111 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 646707111C5A55AD00D32111 /* main.m */; };
+		646707151C5A55AD00D32111 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 646707141C5A55AD00D32111 /* AppDelegate.m */; };
+		646707181C5A55AD00D32111 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646707171C5A55AD00D32111 /* ViewController.m */; };
+		6467071B1C5A55AD00D32111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646707191C5A55AD00D32111 /* Main.storyboard */; };
+		6467071E1C5A55AD00D32111 /* ZJUTHelp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6467071C1C5A55AD00D32111 /* ZJUTHelp.xcdatamodeld */; };
+		646707201C5A55AD00D32111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6467071F1C5A55AD00D32111 /* Assets.xcassets */; };
+		646707231C5A55AD00D32111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646707211C5A55AD00D32111 /* LaunchScreen.storyboard */; };
+		6467072E1C5A55AE00D32111 /* ZJUTHelpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6467072D1C5A55AE00D32111 /* ZJUTHelpTests.m */; };
+		646707391C5A55AE00D32111 /* ZJUTHelpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 646707381C5A55AE00D32111 /* ZJUTHelpUITests.m */; };
+		646707481C5A564100D32111 /* BCClassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 646707471C5A564100D32111 /* BCClassButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6467072A1C5A55AE00D32111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 646707051C5A55AD00D32111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6467070C1C5A55AD00D32111;
+			remoteInfo = ZJUTHelp;
+		};
+		646707351C5A55AE00D32111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 646707051C5A55AD00D32111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6467070C1C5A55AD00D32111;
+			remoteInfo = ZJUTHelp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		641590A11C60423C00314DF5 /* LELoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LELoginViewController.h; sourceTree = "<group>"; };
+		641590A21C60423C00314DF5 /* LELoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LELoginViewController.m; sourceTree = "<group>"; };
+		641590A51C6049A500314DF5 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		641590A61C6049A500314DF5 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		641590A71C6049A500314DF5 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		641590A81C6049A500314DF5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		641590A91C6049A500314DF5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		641590AD1C6049B200314DF5 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		641590AE1C6049B200314DF5 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		641590B01C6050C900314DF5 /* LECourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LECourse.h; sourceTree = "<group>"; };
+		641590B11C6050C900314DF5 /* LECourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LECourse.m; sourceTree = "<group>"; };
+		6467070D1C5A55AD00D32111 /* ZJUTHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJUTHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		646707111C5A55AD00D32111 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		646707131C5A55AD00D32111 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		646707141C5A55AD00D32111 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		646707161C5A55AD00D32111 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		646707171C5A55AD00D32111 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6467071A1C5A55AD00D32111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6467071D1C5A55AD00D32111 /* ZJUTHelp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZJUTHelp.xcdatamodel; sourceTree = "<group>"; };
+		6467071F1C5A55AD00D32111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		646707221C5A55AD00D32111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		646707241C5A55AD00D32111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		646707291C5A55AE00D32111 /* ZJUTHelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJUTHelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6467072D1C5A55AE00D32111 /* ZJUTHelpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJUTHelpTests.m; sourceTree = "<group>"; };
+		6467072F1C5A55AE00D32111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		646707341C5A55AE00D32111 /* ZJUTHelpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJUTHelpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		646707381C5A55AE00D32111 /* ZJUTHelpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJUTHelpUITests.m; sourceTree = "<group>"; };
+		6467073A1C5A55AE00D32111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		646707461C5A564100D32111 /* BCClassButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCClassButton.h; sourceTree = "<group>"; };
+		646707471C5A564100D32111 /* BCClassButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCClassButton.m; sourceTree = "<group>"; };
+		646707491C5A567C00D32111 /* yuanti.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = yuanti.TTF; sourceTree = "<group>"; };
+		646FC5B31C5E4A2C00EC7DD9 /* ZJUTHelp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZJUTHelp-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6467070A1C5A55AD00D32111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646707261C5A55AE00D32111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646707311C5A55AE00D32111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		641590A41C6049A500314DF5 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				641590AD1C6049B200314DF5 /* NSArray+Log.h */,
+				641590AE1C6049B200314DF5 /* NSArray+Log.m */,
+				641590A51C6049A500314DF5 /* MBProgressHUD+MJ.h */,
+				641590A61C6049A500314DF5 /* MBProgressHUD+MJ.m */,
+				641590A71C6049A500314DF5 /* MBProgressHUD.bundle */,
+				641590A81C6049A500314DF5 /* MBProgressHUD.h */,
+				641590A91C6049A500314DF5 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		646707041C5A55AD00D32111 = {
+			isa = PBXGroup;
+			children = (
+				6467070F1C5A55AD00D32111 /* ZJUTHelp */,
+				6467072C1C5A55AE00D32111 /* ZJUTHelpTests */,
+				646707371C5A55AE00D32111 /* ZJUTHelpUITests */,
+				6467070E1C5A55AD00D32111 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6467070E1C5A55AD00D32111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6467070D1C5A55AD00D32111 /* ZJUTHelp.app */,
+				646707291C5A55AE00D32111 /* ZJUTHelpTests.xctest */,
+				646707341C5A55AE00D32111 /* ZJUTHelpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6467070F1C5A55AD00D32111 /* ZJUTHelp */ = {
+			isa = PBXGroup;
+			children = (
+				646707491C5A567C00D32111 /* yuanti.TTF */,
+				641590A41C6049A500314DF5 /* MBProgressHUD */,
+				646707461C5A564100D32111 /* BCClassButton.h */,
+				646707471C5A564100D32111 /* BCClassButton.m */,
+				641590B01C6050C900314DF5 /* LECourse.h */,
+				641590B11C6050C900314DF5 /* LECourse.m */,
+				641590A11C60423C00314DF5 /* LELoginViewController.h */,
+				641590A21C60423C00314DF5 /* LELoginViewController.m */,
+				646707131C5A55AD00D32111 /* AppDelegate.h */,
+				646707141C5A55AD00D32111 /* AppDelegate.m */,
+				646707161C5A55AD00D32111 /* ViewController.h */,
+				646707171C5A55AD00D32111 /* ViewController.m */,
+				646707191C5A55AD00D32111 /* Main.storyboard */,
+				6467071F1C5A55AD00D32111 /* Assets.xcassets */,
+				646707211C5A55AD00D32111 /* LaunchScreen.storyboard */,
+				646707241C5A55AD00D32111 /* Info.plist */,
+				6467071C1C5A55AD00D32111 /* ZJUTHelp.xcdatamodeld */,
+				646707101C5A55AD00D32111 /* Supporting Files */,
+				646FC5B31C5E4A2C00EC7DD9 /* ZJUTHelp-Bridging-Header.h */,
+			);
+			path = ZJUTHelp;
+			sourceTree = "<group>";
+		};
+		646707101C5A55AD00D32111 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				646707111C5A55AD00D32111 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6467072C1C5A55AE00D32111 /* ZJUTHelpTests */ = {
+			isa = PBXGroup;
+			children = (
+				6467072D1C5A55AE00D32111 /* ZJUTHelpTests.m */,
+				6467072F1C5A55AE00D32111 /* Info.plist */,
+			);
+			path = ZJUTHelpTests;
+			sourceTree = "<group>";
+		};
+		646707371C5A55AE00D32111 /* ZJUTHelpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				646707381C5A55AE00D32111 /* ZJUTHelpUITests.m */,
+				6467073A1C5A55AE00D32111 /* Info.plist */,
+			);
+			path = ZJUTHelpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6467070C1C5A55AD00D32111 /* ZJUTHelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6467073D1C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "ZJUTHelp" */;
+			buildPhases = (
+				646707091C5A55AD00D32111 /* Sources */,
+				6467070A1C5A55AD00D32111 /* Frameworks */,
+				6467070B1C5A55AD00D32111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJUTHelp;
+			productName = ZJUTHelp;
+			productReference = 6467070D1C5A55AD00D32111 /* ZJUTHelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		646707281C5A55AE00D32111 /* ZJUTHelpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 646707401C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "ZJUTHelpTests" */;
+			buildPhases = (
+				646707251C5A55AE00D32111 /* Sources */,
+				646707261C5A55AE00D32111 /* Frameworks */,
+				646707271C5A55AE00D32111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6467072B1C5A55AE00D32111 /* PBXTargetDependency */,
+			);
+			name = ZJUTHelpTests;
+			productName = ZJUTHelpTests;
+			productReference = 646707291C5A55AE00D32111 /* ZJUTHelpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		646707331C5A55AE00D32111 /* ZJUTHelpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 646707431C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "ZJUTHelpUITests" */;
+			buildPhases = (
+				646707301C5A55AE00D32111 /* Sources */,
+				646707311C5A55AE00D32111 /* Frameworks */,
+				646707321C5A55AE00D32111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				646707361C5A55AE00D32111 /* PBXTargetDependency */,
+			);
+			name = ZJUTHelpUITests;
+			productName = ZJUTHelpUITests;
+			productReference = 646707341C5A55AE00D32111 /* ZJUTHelpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		646707051C5A55AD00D32111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LE;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Eda;
+				TargetAttributes = {
+					6467070C1C5A55AD00D32111 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					646707281C5A55AE00D32111 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6467070C1C5A55AD00D32111;
+					};
+					646707331C5A55AE00D32111 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6467070C1C5A55AD00D32111;
+					};
+				};
+			};
+			buildConfigurationList = 646707081C5A55AD00D32111 /* Build configuration list for PBXProject "ZJUTHelp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 646707041C5A55AD00D32111;
+			productRefGroup = 6467070E1C5A55AD00D32111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6467070C1C5A55AD00D32111 /* ZJUTHelp */,
+				646707281C5A55AE00D32111 /* ZJUTHelpTests */,
+				646707331C5A55AE00D32111 /* ZJUTHelpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6467070B1C5A55AD00D32111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646707231C5A55AD00D32111 /* LaunchScreen.storyboard in Resources */,
+				641590AB1C6049A500314DF5 /* MBProgressHUD.bundle in Resources */,
+				646707201C5A55AD00D32111 /* Assets.xcassets in Resources */,
+				6467071B1C5A55AD00D32111 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646707271C5A55AE00D32111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646707321C5A55AE00D32111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		646707091C5A55AD00D32111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641590AF1C6049B200314DF5 /* NSArray+Log.m in Sources */,
+				646707181C5A55AD00D32111 /* ViewController.m in Sources */,
+				646707481C5A564100D32111 /* BCClassButton.m in Sources */,
+				646707151C5A55AD00D32111 /* AppDelegate.m in Sources */,
+				646707121C5A55AD00D32111 /* main.m in Sources */,
+				641590B21C6050C900314DF5 /* LECourse.m in Sources */,
+				641590AA1C6049A500314DF5 /* MBProgressHUD+MJ.m in Sources */,
+				6467071E1C5A55AD00D32111 /* ZJUTHelp.xcdatamodeld in Sources */,
+				641590A31C60423C00314DF5 /* LELoginViewController.m in Sources */,
+				641590AC1C6049A500314DF5 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646707251C5A55AE00D32111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6467072E1C5A55AE00D32111 /* ZJUTHelpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646707301C5A55AE00D32111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646707391C5A55AE00D32111 /* ZJUTHelpUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6467072B1C5A55AE00D32111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6467070C1C5A55AD00D32111 /* ZJUTHelp */;
+			targetProxy = 6467072A1C5A55AE00D32111 /* PBXContainerItemProxy */;
+		};
+		646707361C5A55AE00D32111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6467070C1C5A55AD00D32111 /* ZJUTHelp */;
+			targetProxy = 646707351C5A55AE00D32111 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		646707191C5A55AD00D32111 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6467071A1C5A55AD00D32111 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		646707211C5A55AD00D32111 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				646707221C5A55AD00D32111 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6467073B1C5A55AE00D32111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6467073C1C5A55AE00D32111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6467073E1C5A55AE00D32111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ZJUTHelp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.eda.ZJUTHelp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZJUTHelp/ZJUTHelp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6467073F1C5A55AE00D32111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ZJUTHelp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.eda.ZJUTHelp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZJUTHelp/ZJUTHelp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		646707411C5A55AE00D32111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJUTHelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.eda.ZJUTHelpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJUTHelp.app/ZJUTHelp";
+			};
+			name = Debug;
+		};
+		646707421C5A55AE00D32111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJUTHelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.eda.ZJUTHelpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJUTHelp.app/ZJUTHelp";
+			};
+			name = Release;
+		};
+		646707441C5A55AE00D32111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJUTHelpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.eda.ZJUTHelpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJUTHelp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		646707451C5A55AE00D32111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJUTHelpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.eda.ZJUTHelpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJUTHelp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		646707081C5A55AD00D32111 /* Build configuration list for PBXProject "ZJUTHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6467073B1C5A55AE00D32111 /* Debug */,
+				6467073C1C5A55AE00D32111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6467073D1C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "ZJUTHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6467073E1C5A55AE00D32111 /* Debug */,
+				6467073F1C5A55AE00D32111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		646707401C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "ZJUTHelpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646707411C5A55AE00D32111 /* Debug */,
+				646707421C5A55AE00D32111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		646707431C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "ZJUTHelpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646707441C5A55AE00D32111 /* Debug */,
+				646707451C5A55AE00D32111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6467071C1C5A55AD00D32111 /* ZJUTHelp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6467071D1C5A55AD00D32111 /* ZJUTHelp.xcdatamodel */,
+			);
+			currentVersion = 6467071D1C5A55AD00D32111 /* ZJUTHelp.xcdatamodel */;
+			path = ZJUTHelp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 646707051C5A55AD00D32111 /* Project object */;
+}
