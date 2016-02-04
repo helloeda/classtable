@@ -139,23 +139,11 @@
 		6467070F1C5A55AD00D32111 /* ZJUTHelp */ = {
 			isa = PBXGroup;
 			children = (
-				646707491C5A567C00D32111 /* yuanti.TTF */,
-				641590A41C6049A500314DF5 /* MBProgressHUD */,
-				646707461C5A564100D32111 /* BCClassButton.h */,
-				646707471C5A564100D32111 /* BCClassButton.m */,
-				641590B01C6050C900314DF5 /* LECourse.h */,
-				641590B11C6050C900314DF5 /* LECourse.m */,
-				641590A11C60423C00314DF5 /* LELoginViewController.h */,
-				641590A21C60423C00314DF5 /* LELoginViewController.m */,
-				646707131C5A55AD00D32111 /* AppDelegate.h */,
-				646707141C5A55AD00D32111 /* AppDelegate.m */,
-				646707161C5A55AD00D32111 /* ViewController.h */,
-				646707171C5A55AD00D32111 /* ViewController.m */,
-				646707191C5A55AD00D32111 /* Main.storyboard */,
-				6467071F1C5A55AD00D32111 /* Assets.xcassets */,
-				646707211C5A55AD00D32111 /* LaunchScreen.storyboard */,
-				646707241C5A55AD00D32111 /* Info.plist */,
-				6467071C1C5A55AD00D32111 /* ZJUTHelp.xcdatamodeld */,
+				649BAF181C63282200AAD6D7 /* Models */,
+				649BAF171C63280000AAD6D7 /* Supporting Files */,
+				649BAF161C6327F000AAD6D7 /* Others */,
+				649BAF151C6327DC00AAD6D7 /* Views */,
+				649BAF141C6327C000AAD6D7 /* Controllers */,
 				646707101C5A55AD00D32111 /* Supporting Files */,
 				646FC5B31C5E4A2C00EC7DD9 /* ZJUTHelp-Bridging-Header.h */,
 			);
@@ -186,6 +174,58 @@
 				6467073A1C5A55AE00D32111 /* Info.plist */,
 			);
 			path = ZJUTHelpUITests;
+			sourceTree = "<group>";
+		};
+		649BAF141C6327C000AAD6D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				641590A11C60423C00314DF5 /* LELoginViewController.h */,
+				641590A21C60423C00314DF5 /* LELoginViewController.m */,
+				646707161C5A55AD00D32111 /* ViewController.h */,
+				646707171C5A55AD00D32111 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		649BAF151C6327DC00AAD6D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				646707461C5A564100D32111 /* BCClassButton.h */,
+				646707471C5A564100D32111 /* BCClassButton.m */,
+				646707191C5A55AD00D32111 /* Main.storyboard */,
+				646707211C5A55AD00D32111 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		649BAF161C6327F000AAD6D7 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				646707131C5A55AD00D32111 /* AppDelegate.h */,
+				646707141C5A55AD00D32111 /* AppDelegate.m */,
+				641590A41C6049A500314DF5 /* MBProgressHUD */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		649BAF171C63280000AAD6D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				646707491C5A567C00D32111 /* yuanti.TTF */,
+				6467071F1C5A55AD00D32111 /* Assets.xcassets */,
+				646707241C5A55AD00D32111 /* Info.plist */,
+				6467071C1C5A55AD00D32111 /* ZJUTHelp.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		649BAF181C63282200AAD6D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				641590B01C6050C900314DF5 /* LECourse.h */,
+				641590B11C6050C900314DF5 /* LECourse.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

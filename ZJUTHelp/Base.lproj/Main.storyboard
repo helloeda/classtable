@@ -56,6 +56,20 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEM-1o-kv3">
+                                <rect key="frame" x="157" y="233" width="286" height="38"/>
+                                <color key="backgroundColor" red="0.08235294118" green="0.78823529410000004" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="PcL-mL-FDe"/>
+                                    <constraint firstAttribute="width" constant="286" id="iUm-eQ-7cY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="学期绩点查询"/>
+                                <connections>
+                                    <action selector="gradeSearch" destination="Og9-4c-dE4" eventType="touchUpInside" id="tnv-0I-0r3"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhO-vE-EFM">
                                 <rect key="frame" x="157" y="182" width="286" height="38"/>
                                 <color key="backgroundColor" red="0.08235294118" green="0.78823529410000004" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -65,17 +79,19 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="登录"/>
+                                <state key="normal" title="课表查询"/>
                                 <connections>
-                                    <action selector="login" destination="Og9-4c-dE4" eventType="touchUpInside" id="8c2-z5-kRP"/>
+                                    <action selector="courseSearch" destination="Og9-4c-dE4" eventType="touchUpInside" id="EQl-Tc-10a"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="oEM-1o-kv3" firstAttribute="top" secondItem="bhO-vE-EFM" secondAttribute="bottom" constant="13" id="6Sj-Uq-Za5"/>
                             <constraint firstItem="Ojg-6K-h9t" firstAttribute="leading" secondItem="pSN-5L-hrR" secondAttribute="leading" id="CRa-Er-UrD"/>
+                            <constraint firstItem="jt5-Sk-LfU" firstAttribute="top" secondItem="5j9-6E-kvF" secondAttribute="bottom" constant="71" id="Kwh-on-xh6"/>
                             <constraint firstItem="bhO-vE-EFM" firstAttribute="top" secondItem="Ojg-6K-h9t" secondAttribute="bottom" constant="13" id="KyV-Tr-C7i"/>
-                            <constraint firstItem="jt5-Sk-LfU" firstAttribute="top" secondItem="5j9-6E-kvF" secondAttribute="bottom" constant="71" id="VU4-Xg-4YE"/>
+                            <constraint firstItem="oEM-1o-kv3" firstAttribute="leading" secondItem="bhO-vE-EFM" secondAttribute="leading" id="NPQ-is-4YV"/>
                             <constraint firstItem="jt5-Sk-LfU" firstAttribute="centerX" secondItem="bhO-vE-EFM" secondAttribute="centerX" id="Wtx-P8-dXm"/>
                             <constraint firstAttribute="trailing" secondItem="Ojg-6K-h9t" secondAttribute="trailing" id="Xr1-V5-4wR"/>
                             <constraint firstItem="Ojg-6K-h9t" firstAttribute="top" secondItem="jt5-Sk-LfU" secondAttribute="bottom" constant="2" id="lvz-WC-tKt"/>

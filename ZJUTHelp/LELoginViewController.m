@@ -12,8 +12,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *userTel;
 @property (weak, nonatomic) IBOutlet UITextField *userPassword;
 
-- (IBAction)login;
-
+- (IBAction)courseSearch;
+- (IBAction)gradeSearch;
 @end
 
 @implementation LELoginViewController
@@ -35,7 +35,7 @@
     [self.view endEditing:YES];
 }
 
-- (IBAction)login {
+- (IBAction)courseSearch {
     
     // 1.用户名
     NSString *userTelText = self.userTel.text;
@@ -56,6 +56,9 @@
     
 }
 
+
+- (IBAction)gradeSearch{
+}
 
 -(void) httpPost{
     
