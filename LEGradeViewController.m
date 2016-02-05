@@ -13,6 +13,7 @@
 @interface LEGradeViewController ()<UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *gradeTableView;
 @property (nonatomic, strong) NSMutableArray *grades;
+
 @end
 
 @implementation LEGradeViewController
@@ -70,18 +71,21 @@
         sumGradePoint += GradePoint * oneGrade.credit;
         sumCredit += oneGrade.credit;
     }
+    
     NSString *GPA = [NSString stringWithFormat:@"%.3f",sumGradePoint/sumCredit];
     return GPA;
 }
-
+#pragma mark - 加载控制器方法
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"学期成绩查询";
+    self.title = [NSString stringWithFormat: @"%@学期成绩",[[self.grades firstObject] courseTerm]];
     self.gradeTableView.showsVerticalScrollIndicator = FALSE;
     self.gradeTableView.rowHeight = 110;
     LEGradeHeaderView *gradeHeaderView =[LEGradeHeaderView gradeHeaderView];
     gradeHeaderView.GPA = [self CalGPA];
     self.gradeTableView.tableHeaderView = gradeHeaderView;
+    
+
 
 }
 
@@ -90,7 +94,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - 数据源方法
+#pragma mark - UITableView数据源方法
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.grades.count;

@@ -60,7 +60,7 @@
 		641590AE1C6049B200314DF5 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		641590B01C6050C900314DF5 /* LECourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LECourse.h; sourceTree = "<group>"; };
 		641590B11C6050C900314DF5 /* LECourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LECourse.m; sourceTree = "<group>"; };
-		6467070D1C5A55AD00D32111 /* ZJUTHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJUTHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6467070D1C5A55AD00D32111 /* 原创教务助手.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "原创教务助手.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		646707111C5A55AD00D32111 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		646707131C5A55AD00D32111 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		646707141C5A55AD00D32111 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,10 +71,10 @@
 		6467071F1C5A55AD00D32111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		646707221C5A55AD00D32111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		646707241C5A55AD00D32111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		646707291C5A55AE00D32111 /* ZJUTHelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJUTHelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		646707291C5A55AE00D32111 /* 原创教务助手.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "原创教务助手.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6467072D1C5A55AE00D32111 /* ZJUTHelpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJUTHelpTests.m; sourceTree = "<group>"; };
 		6467072F1C5A55AE00D32111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		646707341C5A55AE00D32111 /* ZJUTHelpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJUTHelpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		646707341C5A55AE00D32111 /* 原创教务助手.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "原创教务助手.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		646707381C5A55AE00D32111 /* ZJUTHelpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJUTHelpUITests.m; sourceTree = "<group>"; };
 		6467073A1C5A55AE00D32111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		646707461C5A564100D32111 /* BCClassButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCClassButton.h; sourceTree = "<group>"; };
@@ -144,9 +144,9 @@
 		6467070E1C5A55AD00D32111 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6467070D1C5A55AD00D32111 /* ZJUTHelp.app */,
-				646707291C5A55AE00D32111 /* ZJUTHelpTests.xctest */,
-				646707341C5A55AE00D32111 /* ZJUTHelpUITests.xctest */,
+				6467070D1C5A55AD00D32111 /* 原创教务助手.app */,
+				646707291C5A55AE00D32111 /* 原创教务助手.xctest */,
+				646707341C5A55AE00D32111 /* 原创教务助手.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -247,9 +247,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6467070C1C5A55AD00D32111 /* ZJUTHelp */ = {
+		6467070C1C5A55AD00D32111 /* 原创教务助手 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6467073D1C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "ZJUTHelp" */;
+			buildConfigurationList = 6467073D1C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "原创教务助手" */;
 			buildPhases = (
 				646707091C5A55AD00D32111 /* Sources */,
 				6467070A1C5A55AD00D32111 /* Frameworks */,
@@ -259,14 +259,14 @@
 			);
 			dependencies = (
 			);
-			name = ZJUTHelp;
+			name = "原创教务助手";
 			productName = ZJUTHelp;
-			productReference = 6467070D1C5A55AD00D32111 /* ZJUTHelp.app */;
+			productReference = 6467070D1C5A55AD00D32111 /* 原创教务助手.app */;
 			productType = "com.apple.product-type.application";
 		};
-		646707281C5A55AE00D32111 /* ZJUTHelpTests */ = {
+		646707281C5A55AE00D32111 /* 原创教务助手Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 646707401C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "ZJUTHelpTests" */;
+			buildConfigurationList = 646707401C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "原创教务助手Tests" */;
 			buildPhases = (
 				646707251C5A55AE00D32111 /* Sources */,
 				646707261C5A55AE00D32111 /* Frameworks */,
@@ -277,14 +277,14 @@
 			dependencies = (
 				6467072B1C5A55AE00D32111 /* PBXTargetDependency */,
 			);
-			name = ZJUTHelpTests;
+			name = "原创教务助手Tests";
 			productName = ZJUTHelpTests;
-			productReference = 646707291C5A55AE00D32111 /* ZJUTHelpTests.xctest */;
+			productReference = 646707291C5A55AE00D32111 /* 原创教务助手.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		646707331C5A55AE00D32111 /* ZJUTHelpUITests */ = {
+		646707331C5A55AE00D32111 /* 原创教务助手UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 646707431C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "ZJUTHelpUITests" */;
+			buildConfigurationList = 646707431C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "原创教务助手UITests" */;
 			buildPhases = (
 				646707301C5A55AE00D32111 /* Sources */,
 				646707311C5A55AE00D32111 /* Frameworks */,
@@ -295,9 +295,9 @@
 			dependencies = (
 				646707361C5A55AE00D32111 /* PBXTargetDependency */,
 			);
-			name = ZJUTHelpUITests;
+			name = "原创教务助手UITests";
 			productName = ZJUTHelpUITests;
-			productReference = 646707341C5A55AE00D32111 /* ZJUTHelpUITests.xctest */;
+			productReference = 646707341C5A55AE00D32111 /* 原创教务助手.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -323,7 +323,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 646707081C5A55AD00D32111 /* Build configuration list for PBXProject "ZJUTHelp" */;
+			buildConfigurationList = 646707081C5A55AD00D32111 /* Build configuration list for PBXProject "原创教务助手" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -336,9 +336,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6467070C1C5A55AD00D32111 /* ZJUTHelp */,
-				646707281C5A55AE00D32111 /* ZJUTHelpTests */,
-				646707331C5A55AE00D32111 /* ZJUTHelpUITests */,
+				6467070C1C5A55AD00D32111 /* 原创教务助手 */,
+				646707281C5A55AE00D32111 /* 原创教务助手Tests */,
+				646707331C5A55AE00D32111 /* 原创教务助手UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -416,12 +416,12 @@
 /* Begin PBXTargetDependency section */
 		6467072B1C5A55AE00D32111 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6467070C1C5A55AD00D32111 /* ZJUTHelp */;
+			target = 6467070C1C5A55AD00D32111 /* 原创教务助手 */;
 			targetProxy = 6467072A1C5A55AE00D32111 /* PBXContainerItemProxy */;
 		};
 		646707361C5A55AE00D32111 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6467070C1C5A55AD00D32111 /* ZJUTHelp */;
+			target = 6467070C1C5A55AD00D32111 /* 原创教务助手 */;
 			targetProxy = 646707351C5A55AE00D32111 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -534,7 +534,7 @@
 				INFOPLIST_FILE = ZJUTHelp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = im.eda.ZJUTHelp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "原创教务助手";
 				SWIFT_OBJC_BRIDGING_HEADER = "ZJUTHelp/ZJUTHelp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -548,7 +548,7 @@
 				INFOPLIST_FILE = ZJUTHelp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = im.eda.ZJUTHelp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "原创教务助手";
 				SWIFT_OBJC_BRIDGING_HEADER = "ZJUTHelp/ZJUTHelp-Bridging-Header.h";
 			};
 			name = Release;
@@ -560,8 +560,8 @@
 				INFOPLIST_FILE = ZJUTHelpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = im.eda.ZJUTHelpTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJUTHelp.app/ZJUTHelp";
+				PRODUCT_NAME = "原创教务助手";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/原创教务助手.app/原创教务助手";
 			};
 			name = Debug;
 		};
@@ -572,8 +572,8 @@
 				INFOPLIST_FILE = ZJUTHelpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = im.eda.ZJUTHelpTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJUTHelp.app/ZJUTHelp";
+				PRODUCT_NAME = "原创教务助手";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/原创教务助手.app/原创教务助手";
 			};
 			name = Release;
 		};
@@ -583,7 +583,7 @@
 				INFOPLIST_FILE = ZJUTHelpUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = im.eda.ZJUTHelpUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "原创教务助手";
 				TEST_TARGET_NAME = ZJUTHelp;
 				USES_XCTRUNNER = YES;
 			};
@@ -595,7 +595,7 @@
 				INFOPLIST_FILE = ZJUTHelpUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = im.eda.ZJUTHelpUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "原创教务助手";
 				TEST_TARGET_NAME = ZJUTHelp;
 				USES_XCTRUNNER = YES;
 			};
@@ -604,7 +604,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		646707081C5A55AD00D32111 /* Build configuration list for PBXProject "ZJUTHelp" */ = {
+		646707081C5A55AD00D32111 /* Build configuration list for PBXProject "原创教务助手" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6467073B1C5A55AE00D32111 /* Debug */,
@@ -613,7 +613,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6467073D1C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "ZJUTHelp" */ = {
+		6467073D1C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "原创教务助手" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6467073E1C5A55AE00D32111 /* Debug */,
@@ -622,7 +622,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		646707401C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "ZJUTHelpTests" */ = {
+		646707401C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "原创教务助手Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				646707411C5A55AE00D32111 /* Debug */,
@@ -631,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		646707431C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "ZJUTHelpUITests" */ = {
+		646707431C5A55AE00D32111 /* Build configuration list for PBXNativeTarget "原创教务助手UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				646707441C5A55AE00D32111 /* Debug */,

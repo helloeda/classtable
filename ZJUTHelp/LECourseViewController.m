@@ -12,7 +12,6 @@
 #import "LELoginViewController.h"
 @interface LECourseViewController ()
 @property (nonatomic, strong) NSMutableArray *courses;
-- (IBAction)btnSetMore:(id)sender;
 
 @end
 
@@ -49,16 +48,8 @@ const float KX_5s_ScrollView = 340;
     
 }
 
-- (IBAction)btnSetMore:(id)sender {
-    UIStoryboard *story=[UIStoryboard  storyboardWithName:@"Main" bundle:nil];
-    LELoginViewController *SetMoreVC = [story instantiateViewControllerWithIdentifier:@"login"];
-    [self.navigationController pushViewController:SetMoreVC animated:YES];
 
-}
-
-
-
-
+#pragma mark - 加载控制器方法
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
@@ -84,18 +75,21 @@ const float KX_5s_ScrollView = 340;
     [self draw];
 }
 
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - 课程表绘制方法
 
 - (void)draw{
     [self drawMianScreen];
     [self drawLeftTimeView];
     [self addClassToSchedule];
-  //  NSLog(@"%f",[[UIScreen mainScreen] bounds].size.height);
-   // [self drawTimeLine];
     [self drawTitleWeek];
 }
 
 -(void) drawMianScreen{
-    
     const float OneClass = (self.KYScrollView)/11;
     
     self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(KX,45,self.KXScrollView, self.KYScrollView)];
@@ -141,40 +135,12 @@ const float KX_5s_ScrollView = 340;
 -(void) drawLeftTimeView{
     
     const float OneClass = (self.KYScrollView)/11;
-//    
-//    NSDate *date = [NSDate date];
-//    NSCalendar *calendar = [NSCalendar currentCalendar];
-//    NSDateComponents *components = [calendar components:(NSCalendarUnitHour | NSCalendarUnitMinute) fromDate:date];
-//    NSInteger hour = [components hour];
-//    NSInteger minute = [components minute];
-//    
     self.LeftTimeView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 45, KX,self.KYScrollView)];
     self.LeftTimeView.backgroundColor = [UIColor colorWithRed:244.0f/255.0f
                                                         green:246.0f/255.0f
                                                          blue:246.0f/255.0f
                                                         alpha:1.0f];
     [self.view addSubview:self.LeftTimeView];
-    
-    
-//    float diet = (hour-8) + minute/60.0;
-//    
-//    UILabel *timeLine = [[UILabel alloc] initWithFrame:CGRectMake(0,diet * OneClass,30,2)];
-//    timeLine.layer.borderWidth = 1;
-//    timeLine.layer.borderColor = [[UIColor redColor] CGColor];
-//    [self.LeftTimeView addSubview:timeLine];
-//    
-//    UILabel *timeLabel = [[UILabel alloc] initWithFrame:CGRectMake(5,diet * OneClass-15, 30, 20)];
-//    if(minute < 10){
-//        timeLabel.text = [NSString stringWithFormat:@"%ld:0%ld",(long)hour,(long)minute];
-//    }
-//    else{
-//        timeLabel.text = [NSString stringWithFormat:@"%ld:%ld",(long)hour,(long)minute];
-//    }
-//    
-//    timeLabel.font = [UIFont fontWithName:@"Helvetica" size:8];
-//    [self.LeftTimeView addSubview:timeLabel];
-    
-    
     
     UILabel *SeparateLine;
     float x = 0;
@@ -266,7 +232,6 @@ const float KX_5s_ScrollView = 340;
         NSDateComponents *comps = [gregorian components:NSCalendarUnitDay | NSCalendarUnitMonth  fromDate:newDate];
         NSInteger month = [comps month];
         NSInteger day = [comps day];
-      //  NSLog(@"%ld %ld\n",(long)month,(long)day);
         UILabel *dateLine = [[UILabel alloc] initWithFrame:CGRectMake(a,33,self.KX_AVG_View,10)];
         if((long)day<10){
             dateLine.text = [NSString stringWithFormat:@"%ld-0%ld",(long)month,(long)day];
@@ -296,29 +261,7 @@ const float KX_5s_ScrollView = 340;
     
     const float OneClass = (self.KYScrollView)/11;
     
-//    BCClassButton *button = [[BCClassButton alloc] initWithFrame:CGRectMake(KXInScrollView,0,self.KX_AVG_View,2*OneClass)];
-//    button.backgroundColor = [UIColor colorWithRed:30.0f/255.0f
-//                                             green:144.0f/255.0f
-//                                              blue:250.0f/255.0f
-//                                             alpha:1.0f];
-//    [button DrawButton:@"科技大师讲座" ClassTime:@"@N103"];
-//    [self.scrollView addSubview:button];
-//    
-//    BCClassButton *button2 = [[BCClassButton alloc] initWithFrame:CGRectMake(KXInScrollView,0 + 5 * OneClass,self.KX_AVG_View,3*OneClass)];
-//    button2.backgroundColor = [UIColor colorWithRed:255.0f/255.0f
-//                                              green:105.0f/255.0f
-//                                               blue:180.0f/255.0f
-//                                              alpha:1.0f];
-//    [button2 DrawButton:@"离散数学" ClassTime:@"@C302"];
-//    [self.scrollView addSubview:button2];
-    
     for (LECourse *course in self.courses) {
-//        NSLog(@"课程号：%d", course.classNo);
-//        NSLog(@"课程名：%@", course.courseName);
-//        NSLog(@"教师：%@", course.teacher);
-//        NSLog(@"课长：%d", course.classLong);
-//        NSLog(@"教室：%@", course.classRoom);
-//        NSLog(@"周期%@", course.coursePeriod);
         
         BCClassButton *button = [[BCClassButton alloc] initWithFrame:CGRectMake(KXInScrollView + self.KX_AVG_View * (course.classNo % 7 - 1),0 + course.classNo / 7 * OneClass,self.KX_AVG_View,course.classLong*OneClass)];
 
@@ -355,7 +298,17 @@ const float KX_5s_ScrollView = 340;
         }
 }
 
+#pragma mark - scrollView代理方法
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    [self.titleWeekView setContentOffset:CGPointMake(scrollView.contentOffset.x,0)];
+    [self.LeftTimeView setContentOffset:CGPointMake(0,scrollView.contentOffset.y)];
+}
 
+-(void)scrollViewWillBeginDecelerating: (UIScrollView *)scrollView{
+    [scrollView setContentOffset:scrollView.contentOffset animated:NO];
+}
+
+#pragma mark - 其他方法
 -(NSInteger) getWeek{
     NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSDateComponents *comps = [gregorian components:NSCalendarUnitWeekday fromDate:[NSDate date]];
@@ -371,38 +324,6 @@ const float KX_5s_ScrollView = 340;
     }
     return weekday;
 }
-
-//
-//-(void) drawTimeLine{
-//    const float OneClass = (self.KYScrollView)/11;
-//    
-//    NSDate *date = [NSDate date];
-//    NSCalendar *calendar = [NSCalendar currentCalendar];
-//    NSDateComponents *components = [calendar components:(NSCalendarUnitHour | NSCalendarUnitMinute) fromDate:date];
-//    NSInteger hour = [components hour];
-//    NSInteger minute = [components minute];
-//    
-//    NSInteger week = [self getWeek];
-//    
-//    float diet = (hour - 8) + (minute/60.0);
-//    NSLog(@"%f",diet);
-//    UILabel *timeLine = [[UILabel alloc] initWithFrame:CGRectMake(KXInScrollView + week * self.KX_AVG_View ,diet * OneClass, self.KX_AVG_View, 2)];
-//
-//    timeLine.layer.borderWidth = 1;
-//    timeLine.layer.borderColor = [[UIColor redColor] CGColor];
-//    [self.scrollView addSubview:timeLine];
-//}
-
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    [self.titleWeekView setContentOffset:CGPointMake(scrollView.contentOffset.x,0)];
-    [self.LeftTimeView setContentOffset:CGPointMake(0,scrollView.contentOffset.y)];
-}
-
--(void)scrollViewWillBeginDecelerating: (UIScrollView *)scrollView{
-    [scrollView setContentOffset:scrollView.contentOffset animated:NO];
-}
-
-
 
 -(int) judgeMent{
     if(self.view.bounds.size.height > 700){
@@ -420,13 +341,6 @@ const float KX_5s_ScrollView = 340;
 }
 
 
-- (BOOL)prefersStatusBarHidden
-{
-    return YES;
-}
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

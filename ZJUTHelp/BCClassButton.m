@@ -2,21 +2,13 @@
 //  BCClassButton.m
 //  MUSTBEE
 //
-//  Created by zbc on 15/10/19.
-//  Copyright © 2015年 zbc. All rights reserved.
+//  Created by Eda on 16/2/4.
+//  Copyright © 2016年 Eda. All rights reserved.
 //
-
 #import "BCClassButton.h"
 
 @implementation BCClassButton
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
 
 - (instancetype)init
 {

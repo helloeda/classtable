@@ -2,8 +2,8 @@
 //  BCClassButton.h
 //  MUSTBEE
 //
-//  Created by zbc on 15/10/19.
-//  Copyright © 2015年 zbc. All rights reserved.
+//  Created by Eda on 16/2/4.
+//  Copyright © 2016年 Eda. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

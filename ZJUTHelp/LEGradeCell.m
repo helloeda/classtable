@@ -38,6 +38,7 @@
     {
         cell = [[[NSBundle mainBundle] loadNibNamed:@"LEGradeCell" owner:nil options:nil] firstObject];
     }
+    cell.textLabel.textAlignment = NSTextAlignmentCenter;
     return cell;
     
 }

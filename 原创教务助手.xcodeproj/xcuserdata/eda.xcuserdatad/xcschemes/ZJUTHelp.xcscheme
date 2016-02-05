@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6467070C1C5A55AD00D32111"
-               BuildableName = "ZJUTHelp.app"
-               BlueprintName = "ZJUTHelp"
-               ReferencedContainer = "container:ZJUTHelp.xcodeproj">
+               BuildableName = "&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;.app"
+               BlueprintName = "&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;"
+               ReferencedContainer = "container:&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "646707281C5A55AE00D32111"
-               BuildableName = "ZJUTHelpTests.xctest"
-               BlueprintName = "ZJUTHelpTests"
-               ReferencedContainer = "container:ZJUTHelp.xcodeproj">
+               BuildableName = "&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;.xctest"
+               BlueprintName = "&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;Tests"
+               ReferencedContainer = "container:&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "646707331C5A55AE00D32111"
-               BuildableName = "ZJUTHelpUITests.xctest"
-               BlueprintName = "ZJUTHelpUITests"
-               ReferencedContainer = "container:ZJUTHelp.xcodeproj">
+               BuildableName = "&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;.xctest"
+               BlueprintName = "&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;UITests"
+               ReferencedContainer = "container:&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6467070C1C5A55AD00D32111"
-            BuildableName = "ZJUTHelp.app"
-            BlueprintName = "ZJUTHelp"
-            ReferencedContainer = "container:ZJUTHelp.xcodeproj">
+            BuildableName = "&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;.app"
+            BlueprintName = "&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;"
+            ReferencedContainer = "container:&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6467070C1C5A55AD00D32111"
-            BuildableName = "ZJUTHelp.app"
-            BlueprintName = "ZJUTHelp"
-            ReferencedContainer = "container:ZJUTHelp.xcodeproj">
+            BuildableName = "&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;.app"
+            BlueprintName = "&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;"
+            ReferencedContainer = "container:&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6467070C1C5A55AD00D32111"
-            BuildableName = "ZJUTHelp.app"
-            BlueprintName = "ZJUTHelp"
-            ReferencedContainer = "container:ZJUTHelp.xcodeproj">
+            BuildableName = "&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;.app"
+            BlueprintName = "&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;"
+            ReferencedContainer = "container:&#x539f;&#x521b;&#x6559;&#x52a1;&#x52a9;&#x624b;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

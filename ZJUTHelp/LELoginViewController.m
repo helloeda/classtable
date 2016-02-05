@@ -16,11 +16,11 @@
 @property (atomic,assign) int searchTerm;
 - (IBAction)courseSearch;
 - (IBAction)gradeSearch;
+
 @end
 
 @implementation LELoginViewController
-
-
+#pragma mark - 加载控制器方法
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.pickerViewTerm selectRow:3 inComponent:0 animated:NO];
@@ -39,6 +39,7 @@
     [self.view endEditing:YES];
 }
 
+#pragma mark - 按钮事件
 - (IBAction)courseSearch {
     
     // 1.用户名
@@ -313,9 +314,6 @@
                 //切换界面
                 NSOperationQueue *mainQueue = [NSOperationQueue mainQueue];  //主队列
                 NSBlockOperation *operation = [NSBlockOperation blockOperationWithBlock:^{
-//                    UIStoryboard *story=[UIStoryboard  storyboardWithName:@"Main" bundle:nil];
-//                    UIViewController *dtView=[story  instantiateViewControllerWithIdentifier:@"grade"];
-//                    [self presentViewController:dtView animated:NO completion:nil];
                     UIStoryboard *story=[UIStoryboard  storyboardWithName:@"Main" bundle:nil];
                     LELoginViewController *SetMoreVC = [story instantiateViewControllerWithIdentifier:@"grade"];
                     [self.navigationController pushViewController:SetMoreVC animated:YES];
@@ -376,16 +374,15 @@
     return MArrgrade;
 }
 
-#pragma mark -PickerView的数据源
+#pragma mark - PickerView的数据源
 
-// returns the number of 'columns' to display.
-#pragma mark pickerView的组数
+//1. pickerView的组数
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
     
     return 2;
 }
 
-#pragma mark pickerView每一组的行数
+//2. pickerView每一组的行数
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component{
    
     int count;
@@ -396,9 +393,7 @@
     return count;
 }
 
-
-
-#pragma mark 每一组每一行显示文字
+//3. 每一组每一行显示文字
 -(NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
     NSString *item = [[NSString alloc] init];
     if (component == 0) {
@@ -426,7 +421,7 @@
     return item;
 }
 
-
+//4. pickerView的样式设置
 - (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view{
     UILabel* pickerLabel = (UILabel*)view;
     if (!pickerLabel){
@@ -440,12 +435,13 @@
             [pickerLabel setTextAlignment:NSTextAlignmentLeft];
             
     }
+    //隐藏线条
     ((UIView *)[pickerView.subviews objectAtIndex:1]).backgroundColor = [UIColor clearColor];
     ((UIView *)[pickerView.subviews objectAtIndex:2]).backgroundColor = [UIColor clearColor];
     pickerLabel.text=[self pickerView:pickerView titleForRow:row forComponent:component];
     return pickerLabel;
 }
-#pragma mark PickerView的代理方法
+#pragma mark - PickerView的代理方法
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
    
