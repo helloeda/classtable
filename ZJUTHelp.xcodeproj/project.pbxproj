@@ -15,7 +15,7 @@
 		641590B21C6050C900314DF5 /* LECourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 641590B11C6050C900314DF5 /* LECourse.m */; };
 		646707121C5A55AD00D32111 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 646707111C5A55AD00D32111 /* main.m */; };
 		646707151C5A55AD00D32111 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 646707141C5A55AD00D32111 /* AppDelegate.m */; };
-		646707181C5A55AD00D32111 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646707171C5A55AD00D32111 /* ViewController.m */; };
+		646707181C5A55AD00D32111 /* LECourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646707171C5A55AD00D32111 /* LECourseViewController.m */; };
 		6467071B1C5A55AD00D32111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646707191C5A55AD00D32111 /* Main.storyboard */; };
 		6467071E1C5A55AD00D32111 /* ZJUTHelp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6467071C1C5A55AD00D32111 /* ZJUTHelp.xcdatamodeld */; };
 		646707201C5A55AD00D32111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6467071F1C5A55AD00D32111 /* Assets.xcassets */; };
@@ -23,6 +23,12 @@
 		6467072E1C5A55AE00D32111 /* ZJUTHelpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6467072D1C5A55AE00D32111 /* ZJUTHelpTests.m */; };
 		646707391C5A55AE00D32111 /* ZJUTHelpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 646707381C5A55AE00D32111 /* ZJUTHelpUITests.m */; };
 		646707481C5A564100D32111 /* BCClassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 646707471C5A564100D32111 /* BCClassButton.m */; };
+		649BAF1B1C633E7E00AAD6D7 /* LEGrade.m in Sources */ = {isa = PBXBuildFile; fileRef = 649BAF1A1C633E7E00AAD6D7 /* LEGrade.m */; };
+		649BAF211C63438500AAD6D7 /* LEGradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649BAF201C63438500AAD6D7 /* LEGradeViewController.m */; };
+		649BAF2A1C6359B800AAD6D7 /* LEGradeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 649BAF281C6359B800AAD6D7 /* LEGradeCell.m */; };
+		649BAF2B1C6359B800AAD6D7 /* LEGradeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649BAF291C6359B800AAD6D7 /* LEGradeCell.xib */; };
+		649BAF2E1C63670400AAD6D7 /* LEGradeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 649BAF2D1C63670400AAD6D7 /* LEGradeHeaderView.m */; };
+		649BAF301C63672500AAD6D7 /* LEGradeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649BAF2F1C63672500AAD6D7 /* LEGradeHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +64,8 @@
 		646707111C5A55AD00D32111 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		646707131C5A55AD00D32111 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		646707141C5A55AD00D32111 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		646707161C5A55AD00D32111 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		646707171C5A55AD00D32111 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		646707161C5A55AD00D32111 /* LECourseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LECourseViewController.h; sourceTree = "<group>"; };
+		646707171C5A55AD00D32111 /* LECourseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LECourseViewController.m; sourceTree = "<group>"; };
 		6467071A1C5A55AD00D32111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6467071D1C5A55AD00D32111 /* ZJUTHelp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZJUTHelp.xcdatamodel; sourceTree = "<group>"; };
 		6467071F1C5A55AD00D32111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,7 +80,16 @@
 		646707461C5A564100D32111 /* BCClassButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCClassButton.h; sourceTree = "<group>"; };
 		646707471C5A564100D32111 /* BCClassButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCClassButton.m; sourceTree = "<group>"; };
 		646707491C5A567C00D32111 /* yuanti.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = yuanti.TTF; sourceTree = "<group>"; };
-		646FC5B31C5E4A2C00EC7DD9 /* ZJUTHelp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZJUTHelp-Bridging-Header.h"; sourceTree = "<group>"; };
+		649BAF191C633E7E00AAD6D7 /* LEGrade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGrade.h; sourceTree = "<group>"; };
+		649BAF1A1C633E7E00AAD6D7 /* LEGrade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGrade.m; sourceTree = "<group>"; };
+		649BAF1F1C63438500AAD6D7 /* LEGradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEGradeViewController.h; path = ../LEGradeViewController.h; sourceTree = "<group>"; };
+		649BAF201C63438500AAD6D7 /* LEGradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEGradeViewController.m; path = ../LEGradeViewController.m; sourceTree = "<group>"; };
+		649BAF271C6359B800AAD6D7 /* LEGradeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGradeCell.h; sourceTree = "<group>"; };
+		649BAF281C6359B800AAD6D7 /* LEGradeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGradeCell.m; sourceTree = "<group>"; };
+		649BAF291C6359B800AAD6D7 /* LEGradeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LEGradeCell.xib; sourceTree = "<group>"; };
+		649BAF2C1C63670400AAD6D7 /* LEGradeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGradeHeaderView.h; sourceTree = "<group>"; };
+		649BAF2D1C63670400AAD6D7 /* LEGradeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGradeHeaderView.m; sourceTree = "<group>"; };
+		649BAF2F1C63672500AAD6D7 /* LEGradeHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LEGradeHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,12 +155,10 @@
 			isa = PBXGroup;
 			children = (
 				649BAF181C63282200AAD6D7 /* Models */,
-				649BAF171C63280000AAD6D7 /* Supporting Files */,
 				649BAF161C6327F000AAD6D7 /* Others */,
 				649BAF151C6327DC00AAD6D7 /* Views */,
 				649BAF141C6327C000AAD6D7 /* Controllers */,
 				646707101C5A55AD00D32111 /* Supporting Files */,
-				646FC5B31C5E4A2C00EC7DD9 /* ZJUTHelp-Bridging-Header.h */,
 			);
 			path = ZJUTHelp;
 			sourceTree = "<group>";
@@ -153,6 +166,10 @@
 		646707101C5A55AD00D32111 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				646707491C5A567C00D32111 /* yuanti.TTF */,
+				6467071F1C5A55AD00D32111 /* Assets.xcassets */,
+				646707241C5A55AD00D32111 /* Info.plist */,
+				6467071C1C5A55AD00D32111 /* ZJUTHelp.xcdatamodeld */,
 				646707111C5A55AD00D32111 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -181,8 +198,10 @@
 			children = (
 				641590A11C60423C00314DF5 /* LELoginViewController.h */,
 				641590A21C60423C00314DF5 /* LELoginViewController.m */,
-				646707161C5A55AD00D32111 /* ViewController.h */,
-				646707171C5A55AD00D32111 /* ViewController.m */,
+				646707161C5A55AD00D32111 /* LECourseViewController.h */,
+				646707171C5A55AD00D32111 /* LECourseViewController.m */,
+				649BAF1F1C63438500AAD6D7 /* LEGradeViewController.h */,
+				649BAF201C63438500AAD6D7 /* LEGradeViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -194,6 +213,12 @@
 				646707471C5A564100D32111 /* BCClassButton.m */,
 				646707191C5A55AD00D32111 /* Main.storyboard */,
 				646707211C5A55AD00D32111 /* LaunchScreen.storyboard */,
+				649BAF271C6359B800AAD6D7 /* LEGradeCell.h */,
+				649BAF281C6359B800AAD6D7 /* LEGradeCell.m */,
+				649BAF291C6359B800AAD6D7 /* LEGradeCell.xib */,
+				649BAF2C1C63670400AAD6D7 /* LEGradeHeaderView.h */,
+				649BAF2D1C63670400AAD6D7 /* LEGradeHeaderView.m */,
+				649BAF2F1C63672500AAD6D7 /* LEGradeHeaderView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -208,22 +233,13 @@
 			name = Others;
 			sourceTree = "<group>";
 		};
-		649BAF171C63280000AAD6D7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				646707491C5A567C00D32111 /* yuanti.TTF */,
-				6467071F1C5A55AD00D32111 /* Assets.xcassets */,
-				646707241C5A55AD00D32111 /* Info.plist */,
-				6467071C1C5A55AD00D32111 /* ZJUTHelp.xcdatamodeld */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		649BAF181C63282200AAD6D7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				641590B01C6050C900314DF5 /* LECourse.h */,
 				641590B11C6050C900314DF5 /* LECourse.m */,
+				649BAF191C633E7E00AAD6D7 /* LEGrade.h */,
+				649BAF1A1C633E7E00AAD6D7 /* LEGrade.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -334,8 +350,10 @@
 			files = (
 				646707231C5A55AD00D32111 /* LaunchScreen.storyboard in Resources */,
 				641590AB1C6049A500314DF5 /* MBProgressHUD.bundle in Resources */,
+				649BAF301C63672500AAD6D7 /* LEGradeHeaderView.xib in Resources */,
 				646707201C5A55AD00D32111 /* Assets.xcassets in Resources */,
 				6467071B1C5A55AD00D32111 /* Main.storyboard in Resources */,
+				649BAF2B1C6359B800AAD6D7 /* LEGradeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,15 +378,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649BAF2A1C6359B800AAD6D7 /* LEGradeCell.m in Sources */,
 				641590AF1C6049B200314DF5 /* NSArray+Log.m in Sources */,
-				646707181C5A55AD00D32111 /* ViewController.m in Sources */,
+				646707181C5A55AD00D32111 /* LECourseViewController.m in Sources */,
 				646707481C5A564100D32111 /* BCClassButton.m in Sources */,
 				646707151C5A55AD00D32111 /* AppDelegate.m in Sources */,
 				646707121C5A55AD00D32111 /* main.m in Sources */,
+				649BAF1B1C633E7E00AAD6D7 /* LEGrade.m in Sources */,
 				641590B21C6050C900314DF5 /* LECourse.m in Sources */,
 				641590AA1C6049A500314DF5 /* MBProgressHUD+MJ.m in Sources */,
 				6467071E1C5A55AD00D32111 /* ZJUTHelp.xcdatamodeld in Sources */,
+				649BAF211C63438500AAD6D7 /* LEGradeViewController.m in Sources */,
 				641590A31C60423C00314DF5 /* LELoginViewController.m in Sources */,
+				649BAF2E1C63670400AAD6D7 /* LEGradeHeaderView.m in Sources */,
 				641590AC1C6049A500314DF5 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

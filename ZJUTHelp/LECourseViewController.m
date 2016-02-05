@@ -6,15 +6,17 @@
 //  Copyright © 2016年 Eda. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LECourseViewController.h"
 #import "BCClassButton.h"
 #include "LECourse.h"
-@interface ViewController ()
+#import "LELoginViewController.h"
+@interface LECourseViewController ()
 @property (nonatomic, strong) NSMutableArray *courses;
+- (IBAction)btnSetMore:(id)sender;
 
 @end
 
-@implementation ViewController
+@implementation LECourseViewController
 
 const float KX = 30;
 const float KXInScrollView = 0;
@@ -45,6 +47,13 @@ const float KX_5s_ScrollView = 340;
     }
     return _courses;
     
+}
+
+- (IBAction)btnSetMore:(id)sender {
+    UIStoryboard *story=[UIStoryboard  storyboardWithName:@"Main" bundle:nil];
+    LELoginViewController *SetMoreVC = [story instantiateViewControllerWithIdentifier:@"login"];
+    [self.navigationController pushViewController:SetMoreVC animated:YES];
+
 }
 
 

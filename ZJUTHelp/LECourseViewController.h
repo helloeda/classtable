@@ -12,7 +12,7 @@
 
 
 
-@interface ViewController : UIViewController<UIScrollViewDelegate>
+@interface LECourseViewController : UIViewController<UIScrollViewDelegate>
 
 @property (nonatomic,strong) UIScrollView *scrollView;
 @property (nonatomic,strong) UIScrollView *titleWeekView;
